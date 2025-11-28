@@ -1,4 +1,4 @@
-name: 522-ia2
+name: dockerlock
 channels:
   - conda-forge
 dependencies:

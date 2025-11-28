@@ -1,5 +1,5 @@
 # use the miniforge base, make sure you specify a verion
-FROM condaforge/miniforge3:latest
+FROM quay.io/jupyter/minimal-notebook:afe30f0c9ad8
 
 # copy the lockfile into the container
 COPY conda-lock.yml conda-lock.yml
